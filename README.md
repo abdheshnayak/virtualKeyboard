@@ -1,7 +1,7 @@
 # Virtual Keyboard with html, css, js(jquery)
 [Live test here](https://kamla.com.np/app/vkb/)
 
-![snap](https://kamla.com.np/app/vkb/snap.png)
+![snap](snap.png)
 
 ## Steps to implement in your website
 ### Step 1
