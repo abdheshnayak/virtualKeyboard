@@ -11,7 +11,7 @@ First of all, you have to use two script tags one for keyboard another for jquer
 integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
 crossorigin="anonymous"></script>
 
-<script src="keyboard.js" onload="keyboard();"></script>
+<script src="https://kamla.com.np/app/vkb/keyboard.js?V=1" onload="keyboard();"></script>
 
 ```
 ### Step 2
@@ -40,7 +40,7 @@ This is the full code of a page.
     <head>
         <title>Keybard</title>
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="keyboard.js" onload="keyboard();"></script>
+        <script src="https://kamla.com.np/app/vkb/keyboard.js?V=1" onload="keyboard();"></script>
         <style>
             #an_input{
                 margin: 0 auto;
