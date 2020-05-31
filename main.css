@@ -1,0 +1,120 @@
+.backgrnd{
+    position: fixed;
+    width:100%;
+    background: linear-gradient(90deg,#6B696C, #4C4952);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:1em;
+    background: #444444;
+    z-index:4;
+}
+.mainCont{
+    font-size: 0.8em;
+    position:relative;
+    border: 1px solid black;
+    background: #121212;
+    width: 30em;
+    height: 18.5em;
+    padding: 0.2em;
+    padding-bottom:0.5em;
+    margin: 0 auto;
+    -webkit-box-shadow: -5px 9px 5px 2px #161417;
+    -moz-box-shadow: -5px 9px 5px 2px #161417;
+    box-shadow: -5px 9px 5px 2px #161417;
+}
+.container{
+    position: absolute;
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.raw{
+    position: relative;
+    height: 3.5em;
+    margin-top: 0.85em;
+    /* background-color: #7c2c2c1a; */
+    justify-content: space-between;
+    padding-left: 0.2em;
+}
+.key_norm{
+    position:relative;
+    text-align: center;
+    margin-left: 0.15em;
+    color: white;
+    font-size: 1.75em;
+    display: inline-block;
+    border-radius: 0.2em;
+    height: 100%;
+    width: 1.4em;
+    line-height: 2em;
+}
+
+.raw span{
+    background: linear-gradient(90deg,#4B494C, #2C2932);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    transition: transform 0.01s ease,background 0.01s ease;
+    cursor: pointer;     
+    -webkit-tap-highlight-color: transparent;      
+}
+.raw span:active{
+    position: relative;
+    transform: scale(1.1) translateY(-0.2em);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    background: linear-gradient(90deg,#6B696C, #4C4952);
+}
+.key_spec{
+    text-align: center;
+    margin-left: 0.15em;
+    color: white;
+    font-size: 1.75em;
+    display: inline-block;
+    background-color: #313131;
+    border-radius: 0.2em;
+    height: 100%;
+    width: 1.4em;
+    line-height: 2em;
+}
+.shift{
+    margin-left: 0.15em;
+    color: skyblue;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    width: 2.2em;
+    line-height: 2em;
+    margin-right: 0.05em;
+}
+.raw2{
+    padding-left: 1.65em;
+}
+.raw3{
+    padding-left: 0.5em;
+}
+.vchange{
+    padding: 0.5em;
+    font-size: 1.2em;
+    margin-left: 0.2em;
+    width: 2.2em;
+    height: 1.9em;
+    line-height: 2.2em;
+}
+.space{
+    width: 6.45em;
+}
+.v1,.v2,.v3,.v4{
+    display: none;
+}
+.v2{
+    display: block;
+}
+
+@media only screen and (min-width: 70em){
+    .backgrnd{
+        background: linear-gradient(90deg,#6B696C, #4C4952);
+        margin-top:1em;
+        position:relative;
+        margin-bottom:-1.2em;
+    }
+}

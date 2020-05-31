@@ -1,41 +1,3 @@
-# Virtual Keyboard with html, css, js(jquery)
-[Live test here](https://kamla.com.np/app/vkb/)
-
-![snap](https://kamla.com.np/app/vkb/snap.png)
-
-## Steps to implement in your website
-### Step 1
-First of all, you have to use two script tags one for keyboard another for jquery.
-```
-<script src="https://code.jquery.com/jquery-3.5.1.js" 
-integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
-crossorigin="anonymous"></script>
-
-<script src="keyboard.js" onload="keyboard();"></script>
-
-```
-### Step 2
-You have to add id="an_input" in the `input` or `textarea` tag
-```
-<textarea 
-	id="an_input" 
-	onblur="this.focus()" 
-	inputmode="none"  
-	name="input" 
-	rows="12">Type Here
-</textarea>
-
-```
-### Step 3
-Add a div tag with id="keyboard" where you want to add a keyboard.
-```
-<div id="keyboard"></div>
-```
->Thats all you have to do. Now you can test it by running on the browser.
-
-## Full page code
-This is the full code of a page.
-```
 <html>
     <head>
         <title>Keybard</title>
@@ -74,4 +36,3 @@ This is the full code of a page.
         <div id="keyboard"></div>
     </body>
 </html>
-```
