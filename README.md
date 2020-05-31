@@ -1,17 +1,42 @@
 # Virtual Keyboard with html, css, js(jquery)
-[Live test here](https://kamla.com.np/app/vkb/)
+<a style="text-align: center;
+                margin: 1em auto;
+                padding: 0.2em;
+                border-radius: 0.2em;
+                color: white;
+                text-decoration: none;
+                display: block;
+                width: 13em;
+                background:green;
+                box-shadow: 2px 2px 2px 2px #aaccaa;" href="https://kamla.com.np/app/vkb/">Live Test</a>
 
-![snap](snap.png)
+<a style="text-align: center;
+                margin: 1em auto;
+                padding: 0.2em;
+                border-radius: 0.2em;
+                color: white;
+                text-decoration: none;
+                display: block;
+                width: 13em;
+                background:green;
+                box-shadow: 2px 2px 2px 2px #aaccaa;" href="https://github.com/abdheshnayak/virtualKeyboard">Source Code</a>
+
+
+![snap](https://kamla.com.np/app/vkb/snap.png)
 
 ## Steps to implement in your website
 ### Step 1
-First of all, you have to use two script tags one for keyboard another for jquery.
+>**Downlaod all source code from the link given.**
+
+Include `data` and `keyboard.js` in your present working directory.
+
+Then, you have to use two script tags one for keyboard another for jquery.
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.js" 
 integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
 crossorigin="anonymous"></script>
 
-<script src="https://kamla.com.np/app/vkb/keyboard.js?V=01" onload="keyboard();"></script>
+<script src="keyboard.js" onload="keyboard();"></script>
 
 ```
 ### Step 2
@@ -40,7 +65,7 @@ This is the full code of a page.
     <head>
         <title>Keybard</title>
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="https://kamla.com.np/app/vkb/keyboard.js?V=01" onload="keyboard();"></script>
+        <script src="keyboard.js" onload="keyboard();"></script>
         <style>
             #an_input{
                 margin: 0 auto;
