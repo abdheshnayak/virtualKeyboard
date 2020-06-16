@@ -21,7 +21,7 @@ First of all, you have to use two script tags one for keyboard another for jquer
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.js"  ></script>
 
-<script src="keyboard.js" onload="keyboard(); ></script>
+<script src="https://static.prgbook.cf/vkb/keyboard.js" onload="keyboard();"></script>
 
 ```
 ### Step 2
@@ -50,7 +50,7 @@ This is the full code of a page.
     <head>
         <title>Keybard | Abdhesh Nayak</title>
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script src="keyboard.js" onload="keyboard();"></script>
+        <script src="https://static.prgbook.cf/vkb/keyboard.js" onload="keyboard();"></script>
         <style>
             #an_input{
                 margin: 0 auto;
