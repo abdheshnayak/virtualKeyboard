@@ -8,45 +8,30 @@
                 display: block;
                 width: 13em;
                 background:green;
-                box-shadow: 2px 2px 2px 2px #aaccaa;" href="https://kamla.com.np/app/vkb/">Live Test</a>
-
-<a style="text-align: center;
-                margin: 1em auto;
-                padding: 0.2em;
-                border-radius: 0.2em;
-                color: white;
-                text-decoration: none;
-                display: block;
-                width: 13em;
-                background:green;
-                box-shadow: 2px 2px 2px 2px #aaccaa;" href="https://github.com/abdheshnayak/virtualKeyboard">Source Code</a>
+                box-shadow: 2px 2px 2px 2px #aaccaa;" href="https://abdheshnayak.github.io/virtualKeyboard/">Live Test</a>
 
 
 ![snap](https://kamla.com.np/app/vkb/snap.png)
 
 ## Steps to implement in your website
 ### Step 1
->**Downlaod all source code from the link given.**
 
-Include `data` and `keyboard.js` in your present working directory.
 
-Then, you have to use two script tags one for keyboard another for jquery.
+First of all, you have to use two script tags one for keyboard another for jquery.
 ```
-<script src="https://code.jquery.com/jquery-3.5.1.js" 
-integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
-crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"  ></script>
 
-<script src="keyboard.js" onload="keyboard();"></script>
+<script src="keyboard.js" onload="keyboard(); ></script>
 
 ```
 ### Step 2
 You have to add id="an_input" in the `input` or `textarea` tag
 ```
-<textarea 
-	id="an_input" 
-	onblur="this.focus()" 
+<textarea
+	id="an_input"
+	onblur="this.focus()"
 	inputmode="none"  
-	name="input" 
+	name="input"
 	rows="12">Type Here
 </textarea>
 
@@ -63,8 +48,8 @@ This is the full code of a page.
 ```
 <html>
     <head>
-        <title>Keybard</title>
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <title>Keybard | Abdhesh Nayak</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="keyboard.js" onload="keyboard();"></script>
         <style>
             #an_input{
@@ -76,26 +61,14 @@ This is the full code of a page.
                 padding: 1em;
                 font-size: 1.2em;
             }
-            #help{
-                text-align: center;
-                margin: 1em auto;
-                padding: 0.2em;
-                border-radius: 0.2em;
-                color: white;
-                text-decoration: none;
-                display: block;
-                width: 13em;
-                background:green;
-                box-shadow: 2px 2px 2px 2px #aaccaa;
-            }
-            #help:hover{
-                box-shadow: 1px 1px 1px 1px #aaccaa;
-            }
         </style>
     </head>
     <body>
-        <a id="help" href="https://kamla.com.np/?post=vkbimplementation">See Implementation method</a>
+
+        <!-- Your textarea -->
         <textarea id="an_input" onblur="this.focus()" inputmode="none"  name="unicodebox" rows="12" cols="50">Type Here</textarea>
+
+        <!-- add this tag where you want keyboard-->
         <div id="keyboard"></div>
     </body>
 </html>
