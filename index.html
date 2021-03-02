@@ -1,38 +1,56 @@
 <html>
-    <head>
-        <title>Virtual Keybard | Abdhesh Nayak</title>
-        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-        <script src="https://static-progman.netlify.app/vkb/keyboard.js" onload="keyboard();"></script>
-        <style>
-            #an_input{
-                margin: 0 auto;
-                width: 22em;
-                display: block;
-                background-color: #eeeeee;
-                border: none;
-                padding: 1em;
-                font-size: 1.2em;
-            }
-            #help{
-                text-align: center;
-                margin: 1em auto;
-                padding: 0.2em;
-                border-radius: 0.2em;
-                color: white;
-                text-decoration: none;
-                display: block;
-                width: 13em;
-                background:green;
-                box-shadow: 2px 2px 2px 2px #aaccaa;
-            }
-            #help:hover{
-                box-shadow: 1px 1px 1px 1px #aaccaa;
-            }
-        </style>
-    </head>
-    <body>
-        <a id="help" href="https://kamla.com.np/?post=vkbimplementation">See Implementation method</a>
-        <textarea id="an_input" onblur="this.focus()" inputmode="none"  name="unicodebox" rows="12" cols="50">Type Here</textarea>
-        <div id="keyboard"></div>
-    </body>
+  <head>
+    <title>Virtual Keybard | Abdhesh Nayak</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.progman.in/vkb/keyboard.js"
+      onload="keyboard();"
+    ></script>
+    <style>
+      #an_input {
+        margin: 0 auto;
+        width: 22em;
+        display: block;
+        background-color: #eeeeee;
+        border: none;
+        padding: 1em;
+        font-size: 1.2em;
+      }
+      #help {
+        text-align: center;
+        margin: 1em auto;
+        padding: 0.2em;
+        border-radius: 0.2em;
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: 13em;
+        background: green;
+        box-shadow: 2px 2px 2px 2px #aaccaa;
+      }
+      #help:hover {
+        box-shadow: 1px 1px 1px 1px #aaccaa;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="help" href="https://kamla.com.np/?post=vkbimplementation"
+      >See Implementation method</a
+    >
+    <textarea
+      id="an_input"
+      onblur="this.focus()"
+      inputmode="none"
+      name="unicodebox"
+      rows="12"
+      cols="50"
+    >
+Type Here</textarea
+    >
+    <div id="keyboard"></div>
+  </body>
 </html>
